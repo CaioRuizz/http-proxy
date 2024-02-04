@@ -15,4 +15,4 @@ COPY server.py /app
 EXPOSE 5000
 
 # Comando para executar o aplicativo quando o contêiner iniciar
-CMD ["python", "proxy.py"]
+CMD ["python", "server.py"]
